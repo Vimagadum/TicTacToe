@@ -12,7 +12,7 @@ namespace TicTocToe
         {
             Console.WriteLine("Welcome To Tic Tok Toe Game");
             TicTokToeGame.Game();
-            Console.ReadLine();
+            TicTokToeGame.chooseePlayereLetter();
         }
     }
 }
