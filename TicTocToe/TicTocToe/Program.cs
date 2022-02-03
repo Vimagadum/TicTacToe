@@ -13,6 +13,9 @@ namespace TicTocToe
             Console.WriteLine("Welcome To Tic Tok Toe Game");
             TicTokToeGame.Game();
             TicTokToeGame.chooseePlayereLetter();
+            char[] chars = TicTokToeGame.Game();
+            TicTokToeGame.showBoard(chars);
+            
         }
     }
 }
