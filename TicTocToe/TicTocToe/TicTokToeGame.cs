@@ -26,17 +26,17 @@ namespace TicTocToe
             {
                 if(letter.Equals('X'))
                 {
-                    Console.WriteLine(computerLetter = 'O');
+                    computerLetter = 'O';
                 }
                 else if(letter.Equals('O'))
                 {
-                    Console.WriteLine(computerLetter = 'X');
+                    computerLetter = 'X';
                 }
             }
             else
             {
                 Console.WriteLine("Please choose correct one either X or O");
-                chooseePlayereLetter();
+                
             }
             return letter;
         }
